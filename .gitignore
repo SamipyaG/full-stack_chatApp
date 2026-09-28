@@ -23,3 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+k8s/secret.yml
+!k8s/secret.example.yml
+
